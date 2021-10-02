@@ -44,7 +44,7 @@ class HomePage extends StatelessWidget {
                 onPrimary: Colors.white,
               ),
               onPressed: () {
-                // faz alguma coisa
+                Navigator.pushNamed(context, '/pratica04');
               },
             ),
           ],

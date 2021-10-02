@@ -15,7 +15,7 @@ class _Pratica03State extends State<Pratica03> {
       backgroundColor: Colors.black,
       appBar: AppBar(
           title: Text(
-        'Pratica 02',
+        'Pratica 03',
       )),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
