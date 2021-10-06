@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
         '/pratica02' : (BuildContext context) => new Pratica02(),
         '/pratica03' : (BuildContext context) => new Pratica03(),
         '/pratica04' : (BuildContext context) => new Pratica04(),
+        '/pratica05' : (BuildContext context) => new Pratica05(),
       },      
     );
   }

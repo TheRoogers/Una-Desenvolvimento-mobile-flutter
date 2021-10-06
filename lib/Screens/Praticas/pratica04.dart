@@ -15,6 +15,7 @@ class Pratica04 extends StatelessWidget {
           textDirection: TextDirection.ltr,
           children: [
             Expanded(
+              
               child: FittedBox(
                 fit: BoxFit.contain,
                 child: Image(
