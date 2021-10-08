@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
         padding: const EdgeInsets.all(25.0),
         child: Column(
           children: <Widget>[
-            Row(
+            Row(//PRIMEIRA LINHA
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             ElevatedButton(
@@ -49,7 +49,7 @@ class HomePage extends StatelessWidget {
             ),
           ],
         ),
-            Row(
+            Row(//SEGUNDA LINHA
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             ElevatedButton(
@@ -71,7 +71,7 @@ class HomePage extends StatelessWidget {
                 onPrimary: Colors.white,
               ),
               onPressed: () {
-                // faz alguma coisa
+                Navigator.pushNamed(context, '/pratica06');
               },
             ),
             ElevatedButton(
@@ -82,7 +82,45 @@ class HomePage extends StatelessWidget {
                 onPrimary: Colors.white,
               ),
               onPressed: () {
-                // faz alguma coisa
+                Navigator.pushNamed(context, '/pratica07');
+              },
+            ),
+          ],
+        ),
+        Row(//TERCEIRA LINHA
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: <Widget>[
+            ElevatedButton(
+              child: const Text('Atividade 08'),
+              style: ElevatedButton.styleFrom(
+                primary: Colors.red,
+                elevation: 4.0,
+                onPrimary: Colors.white,
+              ),
+              onPressed: () {
+                Navigator.pushNamed(context, '/pratica08');
+              },
+            ),
+            ElevatedButton(
+              child: const Text('Atividade 09'),
+              style: ElevatedButton.styleFrom(
+                primary: Colors.red,
+                elevation: 4.0,
+                onPrimary: Colors.white,
+              ),
+              onPressed: () {
+                Navigator.pushNamed(context, '/pratica09');
+              },
+            ),
+            ElevatedButton(
+              child: const Text('Atividade 10'),
+              style: ElevatedButton.styleFrom(
+                primary: Colors.red,
+                elevation: 4.0,
+                onPrimary: Colors.white,
+              ),
+              onPressed: () {
+                Navigator.pushNamed(context, '/pratica10');
               },
             ),
           ],
@@ -92,18 +130,4 @@ class HomePage extends StatelessWidget {
       ),
     );
   }
-}
-
-Widget buttoms() {
-  return ElevatedButton(
-    child: const Text('Atividade 1'),
-    style: ElevatedButton.styleFrom(
-      primary: Colors.red,
-      elevation: 4.0,
-      onPrimary: Colors.white,
-    ),
-    onPressed: () {
-      // faz alguma coisa
-    },
-  );
 }

@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter ahhhhhhh',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.red,
         scaffoldBackgroundColor: Colors.white,
@@ -22,6 +23,11 @@ class MyApp extends StatelessWidget {
         '/pratica03' : (BuildContext context) => new Pratica03(),
         '/pratica04' : (BuildContext context) => new Pratica04(),
         '/pratica05' : (BuildContext context) => new Pratica05(),
+        '/pratica06' : (BuildContext context) => new Pratica06(),
+        '/pratica07' : (BuildContext context) => new Pratica07(),
+        '/pratica08' : (BuildContext context) => new Pratica08(),
+        '/pratica09' : (BuildContext context) => new Pratica09(),
+        '/pratica10' : (BuildContext context) => new Pratica10(),
       },      
     );
   }
